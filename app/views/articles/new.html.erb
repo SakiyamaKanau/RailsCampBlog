@@ -1,0 +1,17 @@
+<div id="article_wrap">
+  <%= form_with model: @article, local:true do |f| %>
+    タイトル<br />
+    <%= f.text_field :title %>
+    <br />
+    <br />
+  
+    記事内容<br />
+    <%= f.text_area :body %>
+    <br />
+    <br />
+  
+    <%= f.submit '投稿' %>
+    <br />
+    <br />
+  <% end %>
+</div>

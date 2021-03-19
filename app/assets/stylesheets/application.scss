@@ -1,0 +1,202 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@charset "utf-8";
+
+ /* 全体設定
+ ------------------------------------------------------------*/
+
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ body{
+     font-size: 14px;
+     color: #161616;
+     font-family: "KozGoPro-Light", "小塚ゴシック Pro L", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+ }
+
+ .clear {
+   clear: both;
+ }
+
+ a{
+     text-decoration: none;
+ }
+
+
+ /* ヘッダー
+ ------------------------------------------------------------*/
+.alert {
+    text-align: center;
+    padding: 20px;
+    background: lightcoral;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+ header{
+     width: 1000px;
+     padding: 20px 0;
+     margin: 0 auto;
+ }
+
+ p#logo{
+     font-size: 24px;
+     font-weight: 100;
+     float: left;
+ }
+
+ p#logo a{
+     color: #161616;
+ }
+
+ p#logo a span{
+     font-weight: bold;
+     color: #00a9a2;
+ }
+
+ nav{
+     float: right;
+     margin-top: 15px;
+ }
+
+ nav ul li{
+     float: left;
+     margin-left: 30px;
+     list-style-type: none;
+ }
+
+ nav ul li a{
+     color: #7d7d7d;
+     font-weight: bold;
+     text-decoration: none;
+ }
+
+
+ /* トップ　ー　メイン画像
+ ------------------------------------------------------------*/
+
+ div#main{
+     width: 1280px;
+     margin: 0 auto;
+ }
+
+ /* トップ　ー　記事一覧
+ ------------------------------------------------------------*/
+
+ div#article_wrap{
+     width: 1000px;
+     margin: 20px auto;
+ }
+
+ div#article_list{
+     width: 660px;
+     float: left;
+ }
+
+ div#article_list div{
+     padding: 20px 0;
+     border-bottom: 1px solid #7d7d7d;
+ }
+
+ div#article_list div h2 a{
+     font-size: 18px;
+     color: #161616;
+     text-decoration: none;
+ }
+
+ div#article_list div p{
+     font-size: 14px;
+     font-weight: bold;
+     color: #7d7d7d;
+ }
+
+ /* サイドバー
+ ------------------------------------------------------------*/
+
+ div#sidebar{
+     width: 300px;
+     float: right;
+ }
+
+ div#sidebar h2{
+     margin: 20px 0;
+ }
+
+ div#sidebar ul li{
+     list-style-type: none;
+ }
+
+ div#sidebar ul li a{
+     color: #00a9a2;
+ }
+
+ div#sidebar ul li a span{
+     color: #161616;
+ }
+
+
+ /* トップ　ー　フッター
+ ------------------------------------------------------------*/
+ footer{
+     padding: 20px 0;
+     background-color: #161616;
+ }
+
+ div#footer_inner{
+     width: 1000px;
+     margin: 0 auto;
+ }
+
+ div#footer_inner p{
+     color: #FFF;
+     font-size: 12px;
+ }
+
+ /* 記事ページ　ー　タイトル
+ ------------------------------------------------------------*/
+
+ div#title{
+     background-color: #343434;
+     height: 130px;
+     color: #FFF;
+     text-shadow: 0px 3px 5px #000;
+     padding-top: 60px;
+ }
+
+ div#title div{
+     width: 1000px;
+     margin: 0 auto;
+ }
+
+ div#title h1{
+     font-size: 30px;
+ }
+
+
+ /* 記事ページ　ー　記事内容
+ ------------------------------------------------------------*/
+
+ div#content{
+     width: 660px;
+     float: left;
+ }
+
+ div#content h2{
+     margin: 20px 0;
+ }
